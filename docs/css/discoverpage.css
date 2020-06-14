@@ -1,0 +1,83 @@
+.main {
+  height: 1000px;
+}
+
+.search-window {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.search-window input[type=text] {
+  width: 93%;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 24px;
+  border: none;
+  border: none;
+  outline: none;
+}
+
+.search-window button {
+  float: right;
+  height: 100%;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #333;
+  font-size: 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-window button:hover {
+  background: #f2f2f2;
+  color: black;
+}
+
+.oops {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  padding: 22.5px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .oops {
+    height: 100%;
+    width: 100%;
+  }
+
+  .search-window {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 115px;
+    text-align: center;
+  }
+
+  .search-window input[type=text] {
+    width: 100%;
+  }
+
+  .search-window button {
+    margin: 8px 2px;
+    width: 100%;
+  }
+}

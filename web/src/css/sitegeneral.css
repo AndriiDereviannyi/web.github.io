@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Source Sans Pro;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  background: #f2f2f2;
+  margin: auto;
+  color: #000;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: #FFF;
+}
+
+@media screen and (min-width: 801px) {
+  .main {
+    padding: 100px 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main {
+    padding: 30px 20px 100px 20px;
+  }
+}
